@@ -1,28 +1,28 @@
-# AngularLab
+# Angular Lab - Beatles Albums App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0.
+## Create A new Project
+Install the [Angular CLI](https://github.com/angular/angular-cli) 
+```bash
+npm install -g @angular/cli
+```
 
-## Development server
+### Generating and serving your Angular project via a development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+```bash
+ng new PROJECT-NAME
+cd PROJECT-NAME
+ng serve
+```
+Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive/pipe/service/class/module`.
+## Step 1 - Components
 
-## Build
+In this step  we will build our first component.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+1.	In the  app.component, create a component class and decorator.
+2.	Add an html file as the view of the app.component
+3.	The view should include rendering an album data.
+4.	You should display the album cover imager, album name and artist name.
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).

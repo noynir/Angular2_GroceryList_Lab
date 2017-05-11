@@ -1,0 +1,27 @@
+<ng-container *ngIf="list" >
+
+<div *ngIf="list.length>0; else elseBlock" >
+  <ul class="list-group">
+    <li class="list-group-item" *ngFor="let item of list">
+      <div class="checkbox">
+      <label>
+
+        <input type="checkbox" [checked]="item.isChecked" (click)="onItemClicked(inputCheck,item)" #inputCheck>
+        <span *ngIf="!item.isChecked; else elseBlock"  >
+          {{item.title}}
+        </span>
+        <ng-template #elseBlock >
+            <s>{{item.title}}</s>
+        </ng-template>
+
+      </label>
+      </div>
+    </li>
+  </ul>
+</div>
+<ng-template #elseBlock>
+  <div>
+    <b>no items in list.</b>
+  </div>
+</ng-template>
+</ng-container>

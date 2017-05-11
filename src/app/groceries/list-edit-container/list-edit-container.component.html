@@ -1,0 +1,13 @@
+<div>
+  <app-list-edit-form [list]="list"
+                      (onItemAdded)="itemAdded($event)"
+                      (onNameUpdated)="nameChanged($event)" ></app-list-edit-form>
+
+</div>
+<div>
+  <h4>List Items</h4>
+  <app-grocery-items-list [list]="list.items"
+                          (onItemChecked)="itemChecked($event)"
+
+  ></app-grocery-items-list>
+</div>

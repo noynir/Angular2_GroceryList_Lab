@@ -1,0 +1,16 @@
+<div class="form-group" *ngIf="list">
+  <div >
+    <input class="form-control" [value]="list.name"
+           (keyup.enter)="onNameEdited(inputName.value)"
+           placeholder="Enter List Name"
+          #inputName/>
+   </div>
+   <div>
+
+      <input class="form-control" (keyup.enter)="onItemAdd(inputItem)"
+             placeholder="Enter List Item Title"
+             #inputItem />
+     <button class="btn btn-default" (click)="onItemAdd(inputItem)">Add Item</button>
+
+    </div>
+</div>
