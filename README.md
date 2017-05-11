@@ -32,6 +32,11 @@ Navigate to `http://localhost:4200/`. The app will automatically reload if you c
 In This Lab you will be building a simple Grocery list application.
 In the App you will be able To Create a new list, add items and mark items as bought.
 
+A picture is worth a thousand words:
+
+![grocery app](https://cloud.githubusercontent.com/assets/8056070/25950209/ccf2e100-3662-11e7-8577-d9d312a7036a.gif "Grocery list app")
+
+
 ### Step 1 - Components Data Binding & Directive:
 In The First step you will create the application inside a single component.
 The application is made of 2 panels.
