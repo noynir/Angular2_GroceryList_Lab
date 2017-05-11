@@ -34,7 +34,7 @@ In the App you will be able To Create a new list, add items and mark items as bo
 
 A picture is worth a thousand words:
 
-![grocery app](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![grocery app](https://cloud.githubusercontent.com/assets/8056070/25950209/ccf2e100-3662-11e7-8577-d9d312a7036a.gif "Grocery list app")
 
 
 ### Step 1 - Components Data Binding & Directive:
